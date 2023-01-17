@@ -1,0 +1,64 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+div .kibur{
+    display: flex;
+    color:black;
+    justify-content: flex-start;
+    
+}
+.list a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+li a:hover{
+    background-color: green;
+}
+li{
+    list-style-type: none;
+    overflow: hidden;
+}
+ .list li{
+   display: inline;
+   margin-left: 10px;
+}
+.navvvv {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightgrey;
+    /* width: 100%; */
+}
+.bodyyy{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 20px;
+    margin-top: auto;
+    overflow: scroll;
+}
+.text{
+
+    flex: 50%;
+}
+.image{
+    flex: 50%;
+}
+
+@media screen (max-width:800px){
+    .navvvv{
+        flex-direction: column;
+    }
+    .list li{
+        flex-direction: column;
+    }
+}
+
+    

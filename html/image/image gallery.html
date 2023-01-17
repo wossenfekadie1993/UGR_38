@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        div.img{
+            float:left;
+            width: 150;
+            margin: 5px;
+            border: 1px solid gray;
+        }
+        div.img:hover{
+            border: 1px solid black;
+        }
+        div.desc{
+            padding: 5px;
+            text-align: center;
+        }
+        @media only screen and (max-width: 700px) {.img {
+            width: 49.99999%;
+            margin: 6px 0;}
+        }
+
+        @media only screen and (max-width: 500px) {.img {
+            width: 100%;}
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        /*
+        body {
+  counter-reset: part;
+}
+
+h2::before {
+  counter-increment: part;
+  content: "part " counter(part) ": ";
+}*/
+/*ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: section;
+  content: counters(section,".") " ";
+}*/
+
+    </style>
+</head>
+<body>
+    <div class="img">
+        <img src="D:\html file\files\projects\html\image\img_5terre.jpg" alt="terre" width="300" height="300">
+        <div class="desc">descreption about the image</div>
+    </div>
+    <div class="img">
+        <img src="D:\html file\files\projects\html\image\img_forest.jpg" alt="forest" width="300" height="300">
+        <div class="desc">descreption about the image</div>
+    </div>
+    <div class="img">
+        <img src="D:\html file\files\projects\html\image\img_lights.jpg" alt="lights" width="300" height="300">
+        <div class="desc">descreption about the image</div>
+    </div>
+    <div class="img">
+        <img src="D:\html file\files\projects\html\image\img_mountains.jpg" alt="mountains" width="300" height="300">
+        <div class="desc">descreption about the image</div>
+    </div>
+</body>
+</html>

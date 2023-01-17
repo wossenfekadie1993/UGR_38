@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/styling.css">
+	<title>My website</title>
+</head>
+<body>
+	<div id="div1">
+		<p id="p1">text1</p>
+		<p id="p2">text2</p>
+	</div>
+	<script>
+	var par =document.createElement("p");
+	var text=document.createTextNode("from js");
+	par.appendChild(text);
+	var element=document.getElementById("div1").appendChild(par)
+    </script>
+
+</body>
+</html>
